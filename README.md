@@ -83,7 +83,7 @@ A **Google Drive link** is provided to download large files that cannot be hoste
 Due to **GitHub size limitations**, the following files are **not included** in this repository:
 
 * Dataset CSV files
-* Trained model weight files (all K-Fold models, including **Model 5**)
+* Trained model weight files ( only **Model 5**)
 
 ### How to use the Drive files
 
