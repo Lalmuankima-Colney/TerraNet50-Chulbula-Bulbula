@@ -136,3 +136,5 @@ Augmentations applied using **Albumentations**, optimized for off-road terrain:
 * `segmentation_models` library
 * Google Colab and Kaggle for compute resources
 * TerraNet50 Hackathon organizers
+
+by Ayush Nandapure, Lalmuankima Colney, Pratik Phophaliya
