@@ -2,7 +2,7 @@
 
 This repository contains the AI model developed by **Team Chulbula Bulbula** for the **TerraNet50 Hackathon**.
 
-The project implements a deep learning–based **semantic segmentation** system for rugged off-road terrain images using a **U-Net–style convolutional neural network** trained with **PyTorch**.
+The project implements a deep learning–based **semantic segmentation** system for rugged off-road terrain images using a **U-Net–style convolutional neural network** trained with **TensorFlow**.
 
 The work is based on the **Terra Seg: Rugged Terrain Segmentation** dataset from **Kaggle** and was developed and trained using **Google Colab**.
 
@@ -100,10 +100,12 @@ Due to **GitHub size limitations**, the following files are **not included** in 
 * **Epochs**: 7 per fold
 * **Optimizer**: Adam (LR = 1e-4)
 * **Loss Function**: Binary Cross Entropy + Dice Loss
-* **Metric**: IoU Score (threshold = 0.5)
+* **Metric**: IoU Score (threshold = 0.48)
 * **Learning Rate Schedule**: Cosine Annealing
 * **Checkpointing**: Best model saved per fold based on validation IoU
 * **Post-training**: Validation threshold tuning (0.3 – 0.7) per fold
+* Add test-time augmentation (TTA)
+* Ensemble K-Fold models
 
 ---
 
@@ -123,8 +125,6 @@ Augmentations applied using **Albumentations**, optimized for off-road terrain:
 
 * Train for additional epochs
 * Experiment with larger backbones (EfficientNet, ResNet101)
-* Add test-time augmentation (TTA)
-* Ensemble K-Fold models
 * Evaluate using Dice Score and Precision–Recall metrics
 * Visualize predictions on unseen test images
 
