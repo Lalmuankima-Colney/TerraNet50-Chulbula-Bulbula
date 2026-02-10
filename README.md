@@ -137,4 +137,7 @@ Augmentations applied using **Albumentations**, optimized for off-road terrain:
 * Google Colab and Kaggle for compute resources
 * TerraNet50 Hackathon organizers
 
-by Ayush Nandapure, Lalmuankima Colney, Pratik Phophaliya
+## 👥 The Team
+* [Ayush Nandapure](https://github.com/Ayush-Nandapure) - Co-author/Contributor
+* [Lalmuankima Colney](https://github.com/Lalmuankima-Colney) - Co-author/Contributor
+* [Pratik Phophaliya](https://github.com/AlooIsTasty)- Co-author/Contributor
